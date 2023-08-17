@@ -3,33 +3,33 @@
 }
 a{
     text-decoration: none;
-    font-size: 12px;
+    font-size: 20px;
     border-style: none;
 }
 #container{
     box-sizing: content-box;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
+    font-size: 20px;
     
     
   
 }
 #sp,.s1{
     line-height:5px;
-    font-size:7px; 
+    font-size:20px; 
      
 }
 #header,#s{
-    background-color:gray;
+    background-color:navy;
     color:white;
     padding: 2px 5px ;
     margin-bottom: 20px;
 
 }
-#t,table{
+table{
     background-color: yellow;
-    font-size: 10px;
-    text-align: justify;
+    font-size: 20px;
+    text-align:center;
     width:fit-content;
     height: 200px;
     margin-top: 20px;
@@ -37,11 +37,12 @@ a{
     margin-bottom: 5px;
     margin-right: 5px;
     border-radius: 5px;
+    border: 2px solid black;
 
 }
 #t{
-    padding-top:0px;
-    padding-bottom: 30px;
+    padding-top:40px;
+    /*padding-bottom: 30px;*/
     
 }
 .body1{
@@ -49,39 +50,33 @@ a{
     flex-direction: row;
     border: 1px solid whitesmoke;
     gap: 5px;
+    justify-content: space-between;
     background-color: white;
 }
 .body2{
     background-image:url("hotel6.jpg");
     background-repeat: no-repeat;
-    background-size: 600px 250px;
+    background-size:cover;
     background-position: center;
-    height: 220px;
-    width: 550px;
+    height: 400px;
+    width:900px;
     margin-top: 20px;
-    animation: siba 25s infinite;
+    animation: siba 10s infinite;
     
 }
 @keyframes siba{
-     0%{background-image:url("hotel3.jpg");}
-    10%{background-image:url("hotel3.jpg");} 
-    20%{background-image:url("hotel4.jpg");}
-    30%{background-image:url("hotel7.jpg");}
-    40%{background-image:url("hotel5.jfif");}
-    50%{background-image:url("hotel1.jpg");}
-    60%{background-image:url("hotel6.jpg");}
-    70%{background-image:url("hotel3.jpg");}
-    80%{
-      background-image:url("hotel4.jpg");
-    }
-    90%{background-image:url("hotel5.jpg");}
-    100%{background-image:url("hotel6.jpg");}
+     0%{background-image:url("hotel6.jpg");}
+    20%{background-image:url("hotel3.jpg");} 
+    40%{background-image:url("hotel4.jpg");}
+    60%{background-image:url("hotel7.jpg");}
+    80%{background-image:url("hotel5.jfif");}
+    100%{background-image:url("hotel1.jpg");}
   }
 input[type="text"]{
     border-style: none;
-    width:80;
-    height: 20px;
-    font-size: 10px;
+    width:100px;
+    height: 40px;
+    font-size: 20px;
     border-right: 1px solid antiquewhite;
  
 }
@@ -92,20 +87,21 @@ input[type="search"]
 }
 td{
     border-radius: 2px;
-    height:5px;
+    height:10px;
 }
 input[type="datetime"]{
     border-style: none;
-    height: 20px;
-    font-size: 10px;
+    height: 30px;
+    font-size: 20px;
     border-right: 1px solid antiquewhite;
  
 }
-#in,#but
+#in
 {
     border-style: none;
-    margin-left: 100px;
-    height: 15px;
+    height:50px;
+    width:200px;
+    font-size: 20px;
     background-color: rgb(3, 3, 143);
     color: white;
     
@@ -114,14 +110,14 @@ input[type="datetime"]{
     display: flex;
     flex-direction:row;
     gap: 5px;
-    
+    justify-content: space-between;
     padding: 20px;
     border: 1px solid whitesmoke;
     width: 100%;
     background-color: white;
 }
 .image{
-    height: 100px;
+    height: 200px;
     width:250px;
     border: 1px solid black;
     border-style: none;
@@ -135,11 +131,11 @@ input[type="datetime"]{
 }
 span,.s2{
     line-height: 0px;
-    font-size: 5px;
+    font-size:10px;
 }
 .img1{
-    width:120px;
-    height:80px
+    width:200px;
+    height:150px
 }
 .explore{
     display: flex;
@@ -156,6 +152,7 @@ span,.s2{
     display: flex;
     flex-direction: row;
     gap:5px;
+    justify-content:space-between;
     padding: 20px;
     border: 1px solid whitesmoke;
     width: 100%;
@@ -163,29 +160,30 @@ span,.s2{
     margin-top: 10px;
 }
 .sign1{
-    height: 90px;
-    width:280px;
+    height: 150px;
+    width:450px;
     border:1px solid rgb(226, 224, 224);
     display:flex;
     flex-direction: row; 
     gap:2px;
     background-color: white; 
     
+    
      
 }
 .sign2{
-    width:230px;
+    width:300px;
     display: block;
     line-height: 10px;
     font-size: 8px;
-    margin-left: 5px;
+    margin-left: 30px;
     background-color: white;
     margin-right: 10px;
    
 }
 #in1{
-    font-size: 10px;
-    margin-top: px;
+    font-size: 12px;
+    margin-top:5px;
     border-radius: 4px;
     color:navy;
     border:1px solid navy;
@@ -196,13 +194,13 @@ span,.s2{
     border:1px solid gray;
     border-radius: 2px;
     width:130px;
-    font-size: 10px;
+    font-size: 12px;
     background-color: white;
 }
 i{
     font-size: 20px;
-    color: black;
-    background-color: gray;
+    color:white;
+    background-color:navy;
    
 }
 img{
@@ -218,15 +216,15 @@ img{
 .price{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
     padding:20px;
     border: 1px solid whitesmoke;
     width: 100%;
     background-color: white;
-   margin-top: 10px;
+   margin-top: 20px;
 }
 .price1{
-    height:200px;
+    height:300px;
     background-color: white;
 }
 #search{
@@ -245,7 +243,7 @@ img{
 }
 .r{
     background-color: white;
-    font-size: 10px;
+    font-size: 15px;
     color: black;
     width: fit-content;
     height: 15px;
@@ -256,7 +254,7 @@ img{
     border: 1px solid whitesmoke;
     border-radius: 10px;
     background-color:violet;
-    padding-top:2px;
+    padding:5px;
 
 }
 .crown{
@@ -267,11 +265,12 @@ img{
     padding-left: 10px;
     padding-top: 10px;
     background-color: white;
+    font-size: 20px;
 }
 .cr{
     width:fit-content;
     height:fit-content;
-    font-size:5px;
+    font-size:10px;
     line-height: 5px;
    background-color: white;
     
@@ -282,7 +281,7 @@ img{
 }
 #d .a1{
     color: black;
-    font-size: 10px;
+    font-size: 20px;
     background-color: white;
 }
 .subscribe{
@@ -310,13 +309,15 @@ img{
 }
 .price2{
     position: absolute;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background-image: url("room6.jfif");
     background-repeat: no-repeat;
-    background-size:190px 200px;
+    background-size:cover;
     margin-top: 10px;
     right: 2px;
+    font-size: 20px;
+    margin-right: 50px;
     
 }
 .hi{
@@ -330,19 +331,20 @@ img{
     border-style: none;
     position: absolute;
     bottom: 40px;
-    margin-left: 50px;
+    margin-left:90px;
+    font-size: 20px;
 }
 .pi{
-    font-size: 10px;
+    font-size: 15px;
     word-spacing: 2px;
 }
 .pi1{
-    padding-top: 10px;
+    padding-top: 20px;
     background-color: white;
 }
 .c1{
     width: 30px;
-    font-size: 10px;
+    font-size: 20px;
     border: 1px solid blue;
     color: white;
     background-color: rgb(66, 66, 219);
@@ -352,14 +354,26 @@ img{
 }
 .c2{
     background-color: white;
-    margin-left: 5px;
+    margin-left: 15px;
     font-weight: bold;
     color: black;
-    font-size: 8px;
+    font-size: 15px;
 }
 .c3{
-    margin-left: 5px;
+    margin-left:10px;
     background-color: white;
-    font-size: 8px;
+    font-size: 10px;
 }
+.p{
+    font-size: 12px;
+    line-height: 15px;
+}
+.price1 img{
+    width:250px;
+    height: 200px;
+    padding-right:10px;
+}
+
+
+
 
